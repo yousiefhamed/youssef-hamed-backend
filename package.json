@@ -2,7 +2,7 @@
   "name": "youssef-hamed-backend",
   "version": "1.0.0",
   "description": "handling youssef hamed portfolio backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,7 @@
   "author": "Youssef Hamed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yousiefhamed/youssef-hamed-backend/issues"
+    "url": "https://github.com/yousiefhamed/youssef-hamed-backend/"
   },
   "homepage": "https://github.com/yousiefhamed/youssef-hamed-backend#readme",
   "dependencies": {
