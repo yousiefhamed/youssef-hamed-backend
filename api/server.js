@@ -14,6 +14,12 @@ app.use(cors());
 app.use(helmet());
 
 // Routes
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.use("/api/contactForm", require("../routes/formRoutes"));
 // app.use("/api/contact", require("../routes/contact"));
 // app.use("/api/admin", require("../routes/admin"));
